@@ -7,13 +7,13 @@
 
 # Filipe Ferreira
 
-### Backend Software Engineer · Java · Distributed Systems · Financial Services
+### Backend / Software Engineer · Java · Quarkus · Angular · Financial Services
 
-Building reliable backend systems, integrating services, and translating complex requirements into maintainable software.
+Building reliable backend services and accessible digital experiences for complex business workflows.
 
 [![GitHub](https://img.shields.io/badge/GitHub-gf--filipe-181717?style=flat&logo=github)](https://github.com/gf-filipe)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/filipe-gfbb/)
 ![Location](https://img.shields.io/badge/Location-Bras%C3%ADlia%2C%20Brazil-2D6A8A?style=flat)
-![Focus](https://img.shields.io/badge/Focus-Backend%20Engineering-245B73?style=flat)
 
 </div>
 
@@ -21,22 +21,29 @@ Building reliable backend systems, integrating services, and translating complex
 
 ## About
 
-I'm a **Software Engineer at Banco do Brasil**, working on credit-related software solutions in a large-scale financial services environment.
+I'm a **Software Engineer at Banco do Brasil**, contributing to credit-related products and digital platforms in a large-scale financial services environment.
 
-My experience includes backend development with **Java, Quarkus and Spring Boot**, REST API design, integration with legacy systems, and collaboration on digital solutions with accessibility considerations.
+My experience combines **backend engineering with Java, Quarkus and Spring Boot** with **three years of hands-on experience building modern Angular applications**. I work across APIs, service integration, frontend development, digital accessibility, and automated testing.
 
-I enjoy working across the engineering lifecycle — from understanding requirements and shaping architecture to infrastructure, integration, implementation, documentation and deployment. My strongest interests are backend engineering, distributed systems, software architecture and cloud-native solutions.
-
-I'm currently focused on growing as a **Backend / Software Engineer** and contributing to engineering teams building secure, reliable and maintainable systems.
+I enjoy contributing throughout the engineering lifecycle — from requirements analysis and architecture to infrastructure, integration, implementation, documentation and deployment. My focus is on building secure, maintainable systems and delivering useful experiences for both customers and internal users.
 
 ## Core Technologies
 
-**Backend**
+**Backend Engineering**
 <br>
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 ![Quarkus](https://img.shields.io/badge/Quarkus-4695EB?style=flat&logo=quarkus&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-005571?style=flat)
+
+**Frontend & Quality**
+<br>
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Jasmine](https://img.shields.io/badge/Jasmine-8A4182?style=flat&logo=jasmine&logoColor=white)
+![Karma](https://img.shields.io/badge/Karma-56C5A8?style=flat&logo=karma&logoColor=white)
+![Digital Accessibility](https://img.shields.io/badge/Digital%20Accessibility-146C94?style=flat)
 
 **Data & Messaging**
 <br>
@@ -51,16 +58,9 @@ I'm currently focused on growing as a **Backend / Software Engineer** and contri
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-333333?style=flat)
 
-**Additional Technologies**
-<br>
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-
 ## Selected Projects
 
-The projects below were developed collaboratively as part of FIAP postgraduate and technology challenges. The team participated throughout the lifecycle — planning, architecture, documentation, development and deployment. My contributions have been particularly focused on **architecture, infrastructure and system integration**.
+The projects below were developed collaboratively as part of FIAP postgraduate and technology challenges. The team participated throughout the lifecycle — planning, architecture, documentation, development and deployment. My contributions have been especially focused on **architecture, infrastructure and system integration**.
 
 ### 1. Restaurant Management API
 **Java 17 · Spring Boot · Spring Security · JWT · MySQL · Docker**
@@ -115,17 +115,17 @@ A feedback platform that uses a Quarkus REST API and Azure Functions to process 
 
 [Repository](https://github.com/gf-filipe/tech-challenge-fase-04)
 
-### 5. SUS Connect AI
-**Java 21 · Spring Boot · PostgreSQL · Apache Kafka · Python · FastAPI · Machine Learning · Docker**
+### 5. SUS Connect
+**Java 21 · Spring Boot · PostgreSQL · Apache Kafka · Machine Learning · Docker**
 
-A backend MVP developed during the FIAP postgraduate hackathon to help healthcare providers reduce unused appointment slots through patient confirmations, cancellation workflows and no-show risk estimation.
+A healthcare scheduling platform developed during the FIAP postgraduate hackathon to help reduce unused appointment slots through patient confirmations, cancellation workflows and no-show risk estimation.
 
 **Engineering highlights**
 - Appointment confirmation workflow across simulated WhatsApp, SMS and email channels.
 - Kafka-based event processing for released appointment slots.
-- Independent Python/FastAPI service for machine-learning-based no-show risk estimation.
+- Integration with a machine-learning component for no-show risk estimation.
 - Clean Architecture, DDD concepts and application-level CQRS separation.
-- Docker Compose environment for the API, database, Kafka and ML service.
+- Docker Compose environment for the application and supporting infrastructure.
 - Automated test suite documented in the project README.
 
 [Repository](https://github.com/gf-filipe/sus-connect-api)
@@ -135,12 +135,16 @@ A backend MVP developed during the FIAP postgraduate hackathon to help healthcar
 ### Banco do Brasil — Software Engineer
 *Brazil*
 
-- Work on software solutions in the credit domain within a large-scale financial services environment.
-- Backend development and service integration using Java and Quarkus.
-- Work with REST APIs and integration points involving legacy systems.
-- Collaborate on digital solutions with attention to accessibility and maintainability.
+Contribute to the evolution of digital credit products, working across backend services and frontend applications used in credit-related business workflows.
 
-*Additional project context and measurable outcomes will be added after they are reviewed and cleared for public disclosure.*
+**Selected contributions**
+- Participated in the analysis and backend implementation of **Cupom BB**, a feature that enables eligible discount coupons to be applied during personal and payroll loan simulations and contracting journeys.
+- Designed and developed an internal Angular application that helps employees register promotional offers and associate coupons with customers through a streamlined workflow.
+- More recently, implemented a frontend capability that brings coupon usage directly into the credit contracting experience, supporting a more integrated offer and contracting journey.
+- Work with Java, Quarkus, Angular, REST APIs and integrations with existing enterprise systems.
+- Apply modern Angular practices, digital accessibility principles and frontend unit testing with Jasmine and Karma.
+
+*Further details and measurable business outcomes will be added after review for public disclosure.*
 
 ## Education
 
@@ -154,6 +158,7 @@ A backend MVP developed during the FIAP postgraduate hackathon to help healthcar
 - Distributed systems and event-driven architecture
 - Software architecture and clean code
 - Cloud infrastructure and serverless computing
+- Frontend engineering, accessibility and automated testing
 - Reliability, observability and automated delivery
 - Integration between modern services and legacy platforms
 
@@ -166,8 +171,8 @@ A backend MVP developed during the FIAP postgraduate hackathon to help healthcar
 
 <div align="center">
 
-*Interested in backend engineering opportunities and collaborating with teams building dependable software.*
+*Interested in backend and software engineering opportunities, and collaborating with teams building dependable digital products.*
 
-**[Explore my repositories](https://github.com/gf-filipe?tab=repositories)**
+[LinkedIn](https://www.linkedin.com/in/filipe-gfbb/) · [GitHub repositories](https://github.com/gf-filipe?tab=repositories)
 
 </div>

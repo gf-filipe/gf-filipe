@@ -5,7 +5,7 @@
 
 <div align="center">
 
-# Filipe Ferreira
+# Filipe Goncalves Ferreira
 
 ### Backend / Software Engineer · Java · Quarkus · Angular · Financial Services
 
